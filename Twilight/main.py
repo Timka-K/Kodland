@@ -33,7 +33,7 @@ def get_class(img):
     confidence_score = prediction[0][index]
     return class_name[2:], confidence_score
 
-bot = telebot.TeleBot("6811874333:AAERIouI_KWsujj8jBXaIPToLmXABZ7HHzE")
+bot = telebot.TeleBot("ВАШ ТОКЕН")
 
 @bot.message_handler(content_types=['photo'])
 def img(message):
